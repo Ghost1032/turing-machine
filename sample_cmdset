@@ -1,0 +1,13 @@
+S * * R S
+S 0 0 R R
+S 1 1 R Q
+R 0 0 R R
+R 1 1 R R
+R * * # E
+Q 0 1 R Q
+Q 1 0 R Q
+Q * * L J
+J 0 1 R R
+J 1 0 L J
+J * * R R
+#

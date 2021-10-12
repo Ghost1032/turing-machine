@@ -22,13 +22,5 @@ Here *turingmachine* is the program name.
 * `<input symbol>`, `<new symbol>` and `<movement>` are single characters.
 * `<current state>` and `<new state>` can be any combination of characters within a limit of 5
 * First `<current state>` will be considered as your initial state
-* Use '_' for blank, '#' for halting state
-* Use '$' as current state to stop.
-
-## Non-Deterministic Turing Machine (in Python)
-
-Implementation of a non-deterministic turing machine that accepts or rejects string based on a given set of transitions.
-
-## Improvements
-
-There is a lot of scope for improvement in both these programs. Any ideas, feedback or pull requests are always welcome.
+* Use '*' for blank, '#' for halting state
+* Use '#' as current state to stop.
