@@ -9,8 +9,7 @@ A turing machine simulator that accepts a string and processes it according to a
 You can invoke the program in any of these three methods:
 
 1. `turingmachine`
-1. `turingmachine <input file>`
-1. `turingmachine <input file> <input string>`
+2. `turingmachine <input cmdset> <input dataset>`
  
 Here *turingmachine* is the program name.
 
