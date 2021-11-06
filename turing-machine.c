@@ -7,7 +7,7 @@ Fork from: https://github.com/yedhukrishnan/turing-machine
 #include <stdlib.h>
 #include <string.h>
 
-#define AUTHORITY "Turing Machine by 1032\n"
+#define AUTHORITY "XDU"
 #define MAX_OF_STATE_SYMBOL 5
 #define MAX_OF_STATE_COUNT 1000
 #define MAX_DATA_LENGTH 100
