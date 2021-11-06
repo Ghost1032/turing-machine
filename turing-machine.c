@@ -8,17 +8,17 @@ Fork from: https://github.com/yedhukrishnan/turing-machine
 #include <string.h>
 
 #define AUTHORITY "XDU"
-#define MAX_OF_STATE_SYMBOL 5
-#define MAX_OF_STATE_COUNT 1000
-#define MAX_DATA_LENGTH 100
-#define MAX_DATASET_NUMBER 100
-#define STATE_START "S"
-#define STATE_END "E"
-#define SYMBOL_BLANK '*'
-#define MOVE_LEFT 'L'
-#define MOVE_RIGHT 'R'
-#define MOVE_STOP '#'
-#define END_OF_CMDSET "#"
+#define MAX_OF_STATE_SYMBOL 5 //状态码最大字符
+#define MAX_OF_STATE_COUNT 1000 //最大状态数
+#define MAX_DATA_LENGTH 100 //最大数据长度
+#define MAX_DATASET_NUMBER 100 //最大数据个数
+#define STATE_START "S" //启动状态码
+#define STATE_END "E" //结束状态码
+#define SYMBOL_BLANK '*' //空白符
+#define MOVE_LEFT 'L' //左移
+#define MOVE_RIGHT 'R' //右移
+#define MOVE_STOP '#' //停止
+#define END_OF_CMDSET "#" //命令读取停止符
 
 //void print_status();
 void print_usage();
